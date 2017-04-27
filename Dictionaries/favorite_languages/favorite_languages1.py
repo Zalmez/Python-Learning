@@ -1,5 +1,5 @@
 #Notater
-
+#Kommet til side 103
 favorite_languages = {
     'jen': 'Python',
     'sarah': 'c',
