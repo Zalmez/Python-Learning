@@ -3,7 +3,7 @@ alphabet = u"abcdefghijklmnopqrstuvwxyzæøå"
 def encode(letter, secret):
     pos = alphabet.find(letter)
 
-    newpos = (pos+int(secret))
+    newpos = (pos-secret)
 
     if newpos >= 29:
         newpos = newpos - 29
@@ -29,7 +29,7 @@ def main():
                 output = output + decode(character, secret)
             else:
                 output = output + character
-    elif(command=="encode"):
+    if(command=="encode"):
         message = input("The message you want to encode: ")
         output = ""
 
@@ -40,6 +40,6 @@ def main():
                 output = output + character
 
 
-    print(str(output))
+    print(output)
 
 main()

@@ -1,8 +1,6 @@
-from sys import *
 from turtle import *
 from random import *
 
-starAmount = int(input("Enter a number of stars you want to draw"))
 # a function for moving the turtle to a random location
 def moveToRandomLocation():
     penup()
@@ -35,7 +33,6 @@ def drawGalaxy(numberOfStars):
 
 speed(11)
 
-
 # this will draw a dark blue background
 bgcolor("MidnightBlue")
 
@@ -46,7 +43,7 @@ for star in range(30):
 
 # draw 3 small galaxies of 40 stars
 for galaxy in range(3):
-    drawGalaxy(starAmount)
+    drawGalaxy(40)
 
 hideturtle()
 done()
