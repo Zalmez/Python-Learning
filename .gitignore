@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.pyc
+kodeklubben/build/alfabetet1/warnalfabetet1.txt
+*.toc
+kodeklubben/build/alfabetet1/out00-PYZ.pyz
+*.pkg
+*.zip
+kodeklubben/build/alfabetet1/alfabetet1.exe.manifest
+*.spec
