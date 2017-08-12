@@ -7,7 +7,7 @@ import logging
 def randomInt(minVal, maxVal):
     #Checks if randomInt has it's required values or not, then returns a message if there is no values
     if minVal is None:
-         logging.debug("minVal has not been assigned to a value")
+        logging.debug("minVal has not been assigned to a value")
     elif maxVal is None:
         logging.debug("maxVal has not been assigned to a value")
     else:

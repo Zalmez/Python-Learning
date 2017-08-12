@@ -14,7 +14,7 @@ def decode(letter, secret):
     newpos = (pos-int(secret))
 
     if newpos < 0:
-        newpos = newpos + 29 
+        newpost=(pos-secret)
     return alphabet[newpos]
 
 def main():
